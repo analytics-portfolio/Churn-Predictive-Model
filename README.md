@@ -16,7 +16,7 @@ Another important metric in the customer churn problem is **Recall**. Recall mea
 
 #### **🌟 The Key Findings & Results**: 
 - **Achieved a 0.88-0.89/1 AUC (top 1% Kaggle competition leaderboard).**
-- **Increased the Recall metric from 55% to 84%.** This means for every 100 customers who will churn, the model will correctly identify 80 of them, increasing the chance to keep the customer to stay. 
+- **Increased the Recall metric from 55% to 84%.** This means for every 100 customers who will churn, the model will correctly identify 84 of them, increasing the chance to keep the customer to stay. 
 - **Visualize decision-making process with decision tree graph**, showing how the model makes step-by-step decisions (model interpretability). 
 - **Quantify the the most significant factors of customer churn prediction**, which are *the number of products used by customers, the customer's active member status, and customer's geographic location.*
 
