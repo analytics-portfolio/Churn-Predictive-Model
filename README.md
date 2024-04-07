@@ -2,17 +2,19 @@
 ![Churn Prediction Model in Banking](./resources/images/banking_light.jpg)
 
 *The Jupyter Notebook for data exploration: [here](https://github.com/analytics-portfolio/Churn-Predictive-Model/blob/main/notebooks/data_exploration.ipynb)*,
-*The Jupyter Notebook for machine learning models: [here](https://github.com/analytics-portfolio/Churn-Predictive-Model/blob/main/notebooks/ml.ipynb)*
+
+*The Jupyter Notebook for machine learning models: [here](https://github.com/analytics-portfolio/Churn-Predictive-Model/blob/main/notebooks/ml.ipynb)*, 
+
+The original competition as well as the original dataset can be found [here](https://www.kaggle.com/competitions/playground-series-s4e1). 
 
 ### **🌐 Project Summary**
 #### **🎯 The Problem & The Objectives**: 
-In the banking industry, the customer churn problem (customer stops using the bank service) is a significant problem: it directly impacts a bank's profitability. Churn customers result in lost revenue, increase in acquisition costs, and other  negative business implications. Solving the churn problem is crucial for banks to maintain a stable customer base and improve the business' bottom lines.
+- In the banking industry, the customer churn problem (customer stops using the bank service) is a significant problem: it directly impacts a bank's profitability. Churn customers result in lost revenue, increase in acquisition costs, and other  negative business implications. Solving the churn problem is crucial for banks to maintain a stable customer base and improve the business' bottom lines.
 
-The objective is to build a predictive model to accurately predict if a customer would churn. The data used to build the models are customer personal data and their financial profiles. The original competition as well as the original dataset can be found [here](https://www.kaggle.com/competitions/playground-series-s4e1). 
+- **The objective** is to build a predictive model to accurately predict if a customer would churn. **The data used** to build the models are customer personal data and their financial profiles. 
+**The key metric** in this competition is the [Area Under the ROC Curve (AUC-ROC)](http://en.wikipedia.org/wiki/Receiver_operating_characteristic). This metric provides a comprehensive measure of the model's ability to discriminate between the positive (churn customers) and negative (non-churn customers) groups. The goal is to achieve the highest possible AUC-ROC score.
 
-The key metric in this competition is the [Area Under the ROC Curve (AUC-ROC)](http://en.wikipedia.org/wiki/Receiver_operating_characteristic). This metric provides a comprehensive measure of the model's ability to discriminate between the positive (churn customers) and negative (non-churn customers) groups. The goal is to achieve the highest possible AUC-ROC score.
-
-Another important metric in the customer churn problem is **Recall**. Recall measures the proportion of actual churn customers correctly identified by the model out of all the customers who actually churn. High recall means your model is effective at catching most of the customers who are at risk of churning, minimizing the number of customers who churn without being identified.
+- **Another important metric** in the customer churn problem is Recall. Recall measures the proportion of actual churn customers correctly identified by the model out of all the customers who actually churn. High recall means your model is effective at catching most of the customers who are at risk of churning, minimizing the number of customers who churn without being identified.
 
 #### **🌟 The Key Findings & Results**: 
 - **Achieved a 0.88-0.89/1 AUC (top 1% Kaggle competition leaderboard).**
