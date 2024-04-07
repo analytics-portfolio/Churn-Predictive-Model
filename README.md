@@ -1,5 +1,5 @@
 ## **Churn Prediction Model in Banking Report**
-![Churn Prediction Model in Banking](../resources/images/banking_light.jpg)
+![Churn Prediction Model in Banking](./resources/images/banking_light.jpg)
 
 *The Jupyter Notebook for data exploration: [here](https://github.com/analytics-portfolio/Churn-Predictive-Model/blob/main/notebooks/data_exploration.ipynb)*
 *The Jupyter Notebook for machine learning models: [here](https://github.com/analytics-portfolio/Churn-Predictive-Model/blob/main/notebooks/ml.ipynb)*
