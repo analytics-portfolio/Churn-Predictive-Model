@@ -23,7 +23,7 @@ Another important metric in the customer churn problem is **Recall**. Recall mea
 ### **🔍 Methodology**
 - **Exploratory Data Analysis**: We address anomalies, discover data pattern, understand feature distributions, and spot correlations between variables. We then proceed to visualize the data using various charts such as histograms for distribution analysis, box plots for detecting outliers, and scatter plots and heatmaps for observing relationships between features.
 
-![Distribution of Numerical Features](../resources/results/feature_dist.png)
+![Distribution of Numerical Features](./resources/results/feature_dist.png)
 
 - **Data Preparing for Training Model**: In this step, we perform handle missing values, encode categorical variables, and select feature, ensuring that our models are fed with clean and relevant data for optimal performance.
 
@@ -34,11 +34,11 @@ We employ a grid search strategy to systematically explore the hyperparameter sp
 
 - **Model Interpretation**: Model interpretation focuses on understanding the decisions made by our tuned XGBoost classifier. We explore feature importance scores to identify which variables most significantly influence customer churn decision.
 
-![Feature Importance](../resources/results/feat_imp.png)
+![Feature Importance](./resources/results/feat_imp.png)
 
 **Feature Importance Graph** This graph provides a visual representation of the relative importance of each feature in predicting the target variable in a machine learning model. It ranks features based on their impact on the model’s predictions. Feature importance graphs give a high-level overview of the features that model deems important overall
 
-![SHAP Importance](../resources/results/shap_imp.png)
+![SHAP Importance](./resources/results/shap_imp.png)
 
 **SHAP Importance Graph**: SHAP shows how each feature affects the prediction for *individual instances*, as well as on average across the dataset.
 
