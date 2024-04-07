@@ -6,7 +6,7 @@
 
 ### **🌐 Project Summary**
 #### **🎯 The Problem & The Objectives**: 
-In the banking industry, the customer churn problem (customer stops using the bank service) is a significant problem: it directly impacts a bank's profitability. Churn customers result in lost revenue, increase in acquisition costs, and many other negative implications. Solving the churn problem is crucial for banks to maintain a stable customer base and improve the business' bottom lines.
+In the banking industry, the customer churn problem (customer stops using the bank service) is a significant problem: it directly impacts a bank's profitability. Churn customers result in lost revenue, increase in acquisition costs, and other  negative business implications. Solving the churn problem is crucial for banks to maintain a stable customer base and improve the business' bottom lines.
 
 The objective is to build a predictive model to accurately predict if a customer would churn. The data used to build the models are customer personal data and their financial profiles. The original competition as well as the original dataset can be found [here](https://www.kaggle.com/competitions/playground-series-s4e1). 
 
